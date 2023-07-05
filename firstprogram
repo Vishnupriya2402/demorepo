@@ -1,0 +1,9 @@
+#Compound interest Programme
+
+
+p=int(input("Enter the principle amount : "))
+r=float(input("Enter the rate of interest : "))
+t=float(input("Enter the time period : "))
+amount= p*((1+(r/100)))**t
+comp_inter=amount-p
+print("The interest calculated compoundly is ",comp_inter)
